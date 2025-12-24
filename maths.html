@@ -1,6 +1,28 @@
 <section id="thales" style="padding: 20px; margin-top: 50px;">
     <h2 style="color: #00acee;">1. Théorème de Thalès</h2>
-    <p>Contenu de la leçon Thalès à remplir...</p>
+    <p><section class="interaction-box">
+    <h2 style="color: #2e8ff0; border-bottom: 2px solid #2e8ff0; padding-bottom: 10px;">
+        Leçon : Théorème de Thalès
+    </h2>
+
+    <div style="background: #fff3e0; padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+        <strong>Condition indispensable :</strong> Les droites doivent être <b>parallèles</b> !
+    </div>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center;">
+        <div style="flex: 1; min-width: 280px;">
+            <p>Dans le triangle ABC, si (MN) // (BC), on a l'égalité :</p>
+            <p style="font-size: 1.5em; text-align: center; background: #fff; padding: 10px; border-radius: 5px;">
+                $$\frac{AM}{AB} = \frac{AN}{AC} = \frac{MN}{BC}$$
+            </p>
+        </div>
+        
+        <div style="flex: 1; text-align: center;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Thales_theorem_1.svg/220px-Thales_theorem_1.svg.png" 
+                 alt="Schéma Thalès" style="max-width: 200px; border: 1px solid #ddd;">
+        </div>
+    </div>
+</section></p>
 </section>
 
 <hr>
@@ -218,10 +240,65 @@ alors le triangle ABC est rectangle en C.
 
     </div>
 </section>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-<hr>
 
-<section id="pyramide" style="padding: 20px;">
-    <h2 style="color: #9b59b6;">4. Les Pyramides</h2>
-    <p>Contenu de la leçon Pyramides à remplir...</p>
+<section class="interaction-box" style="font-family: Arial, sans-serif; line-height: 1.6;">
+    <h2 style="color: #2e8ff0; border-bottom: 2px solid #2e8ff0; padding-bottom: 10px;">
+     PYRAMIDE et CONE de REVOLUTION
+    </h2>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-top: 20px;">
+        
+        <div style="flex: 1; min-width: 280px; border: 1px solid #ddd; padding: 15px; border-radius: 10px; background-color: #ffffff;">
+            <h3 style="color: #333;">1. La Pyramide</h3>
+            <p>Une pyramide est un Solide avec une base polygonale et des faces latérales triangulaires qui ont un sommet commun :sommet de la pyramide.
+                La hauteur d'une pyramide est la distance (segment) qui passe par le sommet et perpendiculaire a la base.
+            </p>
+        
+            <div style="background: #f0f7ff; padding: 15px; border-left: 5px solid #2e8ff0; margin: 10px 0;">
+                <strong>Formule du Volume :</strong>
+                <p style="font-size: 1.2em; text-align: center;">$$V = \frac{Base \times h}{3}$$</p>
+            </div>
+            <p style="font-size: 0.9em; color: #666;">Exemple : Pour une base carrée de côté \(a\), l'aire est \(a \times a\).</p>
+        </div>
+
+        <div style="flex: 1; min-width: 280px; border: 1px solid #ddd; padding: 15px; border-radius: 10px; background-color: #ffffff;">
+            <h3 style="color: #333;">2. Le Cône de Révolution</h3>
+            <p>Formé par la rotation d'un triangle rectangle.
+                Un cone de revolution a une base qui est un disque, une surface laterale,un sommet et une hauteur.
+                Le patron d'un cone de revolution est forme par la base (disque)et une portion du disque.
+                Le rayon de la portion de disque est egal a la longueur d' une generatrice.
+                La longueur de l'arc  est egale au perimetre du disque. 
+            </p>
+            
+            
+
+            <div style="background: #f0f7ff; padding: 15px; border-left: 5px solid #2e8ff0; margin: 10px 0;">
+                <strong>Formule du Volume :</strong>
+                <p style="font-size: 1.2em; text-align: center;">$$V = \frac{\pi \times r^2 \times h}{3}$$</p>
+            </div>
+            <p style="font-size: 0.9em; color: #666;">Propriété : \(g^2 = r^2 + h^2\) (Théorème de Pythagore).</p>
+        </div>
+
+    </div>
+
+    <div style="margin-top: 30px; text-align: center; padding: 10px; background: #fff3e0; border-radius: 5px;">
+        <span style="color: #e65100; font-weight: bold;">Rappel :</span> 
+        Le volume est toujours égal au <strong>tiers (1/3)</strong> du volume d'un prisme ou d'un cylindre de même base et même hauteur.
+    </div>
 </section>
+<div style="margin-top: 25px; padding: 20px; background-color: #e8f5e9; border: 2px dashed #4caf50; border-radius: 10px;">
+    <h4 style="color: #2e7d32; margin-top: 0;">💡 L'astuce pour ne plus oublier le "1/3" :</h4>
+    <p>Imagine que tu as un <strong>cône</strong> et un <strong>cylindre</strong> qui ont exactement la même base et la même hauteur :</p>
+    
+    <ul style="list-style-type: none; padding-left: 0;">
+        <li style="margin-bottom: 10px;">✅ Il faut remplir le cône de sable <strong>3 fois</strong> pour remplir entièrement le cylindre.</li>
+        <li style="margin-bottom: 10px;">✅ C'est pour cela qu'on divise toujours par <strong>3</strong> dans la formule du cône et de la pyramide !</li>
+    </ul>
+
+    <div style="text-align: center; font-weight: bold; color: #2e7d32; font-size: 1.1em; background: white; padding: 10px; border-radius: 5px; display: inline-block; width: 100%;">
+        Volume du Cône = (Volume du Cylindre) ÷ 3
+    </div>
+</div>
